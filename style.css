@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+.hero {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.nav-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #424242;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 200px;
+  padding-top: 50px;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-left: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #424242;
+}
+.banner h1 {
+  text-align: center;
+  font-weight: 700;
+  font-family: "Work Sans";
+  font-size: 55px;
+  line-height: 75px;
+}
+.banner p {
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Work Sans";
+  font-style: normal;
+  line-height: 26px;
+  opacity: 0.9;
+}
+.btn {
+  padding: 12px 16px;
+  border: none;
+  background-color: #ff900e;
+  color: white;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+
+}
+.banner {
+  text-align: center;
+}
+.banner-img {
+  margin: 50px 200px;
+}
+.banner-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.future {
+  display: flex;
+  margin: 100px 200px;
+  gap: 30px;
+}
+.team {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+.team img {
+  height: 345px;
+  width: 345px;
+  cursor: pointer;
+}
+.about-team {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn-2 {
+  width: 45%;
+}
+.about-us {
+  display: flex;
+  margin: 50px 200px;
+  gap: 30px;
+}
+.about-content h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+
+  padding: 5px;
+  border-left: 5px solid #ff900e;
+  color: #131313;
+}
+.content {
+  padding: 10px;
+}
+.content h3 {
+  padding: 10px;
+}
+.content p {
+  padding: 10px;
+}
+
+.about-img {
+  width: 600px;
+  height: 800px;
+}
+.about-img img {
+  width: 600px;
+  height: 800px;
+}
+.about-banner {
+  background: #ff900e;
+  color: white;
+  width: 300px;
+  height: 173px;
+  position: absolute;
+  top: 2559px;
+  left: 574px;
+  border: none;
+  border-radius: 5px;
+}
+.about-banner span:nth-child(1){
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+  padding-top: 40px ;
+}
+.about-banner span:nth-child(2){
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+  padding-top: 10px;
+}
+
+.some-facts {
+  margin: 50px 200px;
+  padding-top: 10px;
+}
+.some-facts h3 {
+  color: rgba(19, 19, 19, 1);
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+.some-facts p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(114, 114, 114, 1);
+}
+
+.product {
+}
+.product watch {
+  position: absolute;
+  width: 241.83px;
+  height: 241.83px;
+  left: 531.92px;
+  top: 3663.08px;
+
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  transform: rotate(90deg);
+}
+
+
+.container{
+  margin: 50px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.container-items{
+  width: 241.83px;
+height: 241.83px;
+  border: 1px solid #FF900E;
+border-radius: 8px;
+text-align: center;
+padding: 50px 0;
+}
+
+.container-items p{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+}
+
+.container-items img{
+width: 45.22px;
+height: 45.22px;
+}
+
+.container-items h3{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 53px;
+color: #424242;
+}
+.sponsored{
+  margin: 50px 200px;
+  padding-top: 10px;
+  text-align: center;
+}
+.sponsored h3{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+/* identical to box height */
+
+
+/* Dark 01 */
+
+color: #131313;
+}
+.sponsored p{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+/* Dark 03 */
+
+color: #727272;
+}
+.sponsored-club{
+  margin: 50px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sponsored-club logo{
+  position: absolute;
+width: 166.76px;
+height: 50px;
+left: 286px;
+top: 4267px;
+
+mix-blend-mode: luminosity;
+}
+footer{
+  margin: 100px 200px;
+  text-align: center;
+  background: #FFF4E7;
+border-radius: 8px;
+padding: 20px;
+}
+footer p{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+/* Dark 02 */
+
+color: #424242
+}
