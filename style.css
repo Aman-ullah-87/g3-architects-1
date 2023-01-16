@@ -69,7 +69,7 @@ nav ul li a {
   height: 100%;
   width: 100%;
 }
-
+/* future  section style */
 .future {
   display: flex;
   margin: 100px 200px;
@@ -241,11 +241,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 45px;
 line-height: 53px;
-/* identical to box height */
-
-
-/* Dark 01 */
-
 color: #131313;
 }
 .sponsored p{
@@ -254,12 +249,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 26px;
-/* or 162% */
-
 text-align: center;
-
-/* Dark 03 */
-
 color: #727272;
 }
 .sponsored-club{
@@ -291,8 +281,5 @@ font-weight: 400;
 font-size: 20px;
 line-height: 23px;
 text-align: center;
-
-/* Dark 02 */
-
 color: #424242
 }
